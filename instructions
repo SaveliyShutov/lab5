@@ -1,0 +1,4 @@
+# показать nums
+od -An -t d4 numbers.bin | tr -s ' ' '\n'
+# показать префиксы
+od -An -t d4 prefixes.bin | tr -s ' ' '\n'
